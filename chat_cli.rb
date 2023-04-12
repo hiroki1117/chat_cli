@@ -1,6 +1,6 @@
 require "openai"
 
-client = OpenAI::Client.new(access_token: ENV["OPENAI_ACCESSK_TOKEN"])
+client = OpenAI::Client.new(access_token: ENV["OPENAI_ACCESS_TOKEN"])
 
 # 各種設定
 selected_model = "gpt-3.5-turbo"
